@@ -1,0 +1,14 @@
+from Collections import Counter
+
+
+# Complete the matchingStrings function below.
+def matchingStrings(strings, queries):
+    """
+    matches strings with queries and counts
+    """
+    counter = Counter(queries)
+    print(counter)
+
+
+if __name__ == "__main__":
+    matchingStrings()
